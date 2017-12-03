@@ -3,7 +3,7 @@ html, body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5;
   color: #777777;
-  background-image: url(assets/images/paper_background.jpg);
+  background-image: url(../../../responsive-portfolio/assets/images/paper_background.jpg);
   background-size: cover;
   background-color: gray;
 }
@@ -585,7 +585,7 @@ left: 0px;
 @media screen and (max-width: 640px) {
 
   body {
-    height: 1350px;
+    height: 3945px;
   }
 
   .nav {
@@ -614,24 +614,24 @@ left: 0px;
   }
 
   .left_box {
-    width: 538px;
+    width: 569px;
     margin: 0px;
     padding-top: 34px;
 
   }
 
   .contact_left_box {
-    width: 540px;
+    width: 573px;
     margin: 0px;
     padding-top: 0px;
   }
 
   .contact_left_box .message {
-    width: 538px;
+    width: 570px;
   }
 
   .contact_left_box input {
-    width: 528px;
+    width: 560px;
   }
 
   img.resize {
@@ -640,17 +640,13 @@ left: 0px;
   }
 
   .portfolio_left_box {
-    width: 550px;
+    width: 583px;
     margin: 0px;
     padding: 5px;
     border-style: solid;
     border-color: #cccccc;
     border-width: 2px;
   }
-
-  /*.portfolio_left_box .row1 .row2 .row3 {
-    margin-top: 200px;
-  }*/
 
   h4 {
     background: #4aaaa5;
@@ -661,32 +657,37 @@ left: 0px;
     font-size: 18px;
     color: #ffffff;
     text-align: center;
-    margin-left: 53px;
-    padding: 8px 212px 10px 217px;
+    margin-left: 0px;
+    padding: 0px 280px 10px 250px;
   }
 
   .image_banner1 h4 {
-    top: 1310px;
-    left: 0px;
+    top: 740px;
+    left: 52px;
   }
 
   .image_banner2 h4 {
-    top: 1856px;
+    top: 405px;
     left: 0px;
   }
 
   .image_banner3 h4 {
-    top: 2403px;
+    top: 690px;
     left: 0px;
   }
 
   .image_banner4 h4 {
-    top: 2951px;
+    top: 410px;
     left: 0px;
   }
 
   .image_banner5 h4 {
-    top: 3498px;
+    top: 495px;
+    left: 0px;
+  }
+
+  .image_banner6 h4 {
+    top: 410px;
     left: 0px;
   }
 
@@ -709,9 +710,13 @@ left: 0px;
 
   .portfolio_left_box img {
     float: none;
-    height: 500px;
-    width: 500px;
-    margin-left: -230px;
+    height: 530px;
+    width: 530px;
+    margin-left: 0px;
+  }
+
+  .portfolio_left_box .col2 {
+    margin-right: 254px;
   }
 
   .portfolio_left_box h2 {
@@ -723,7 +728,7 @@ left: 0px;
 
   .right_box {
     height: 170px;
-    width: 539px;
+    width: 570px;
     margin: 0px;
     margin-left: 0px;
     margin-top: 20px;
