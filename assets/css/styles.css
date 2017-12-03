@@ -337,7 +337,7 @@ h4 {
   margin-top: 8px;
 }
 
-@media screen and (max-width: 980px) {
+@media only screen and (min-width: 980px) and (max-width: 1399px) {
 
   body {
     height: 2450px;
@@ -540,7 +540,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 979px) {
 
   body {
     height: 1550px;
@@ -723,7 +723,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (min-width: 640px) and (max-width: 767px){
 
   body {
     height: 3945px;
