@@ -459,6 +459,7 @@ h4 {
 
   .left_box {
     margin: 0px;
+    padding-top: 40px;
     width: 697px;
   }
 
@@ -483,29 +484,52 @@ h4 {
   }
 
   .portfolio_left_box {
-    float: none;
     background: #ffffff;
-    width: 540px;
+    width: 705px;
     margin: 0px;
-    padding: 0px;
+    margin: 0px;
+    padding: 10px;
     border-style: solid;
     border-color: #cccccc;
     border-width: 2px;
   }
 
-  .portfolio_left_box .row1 .row2 .row3 {
+  /*.portfolio_left_box .row1 .row2 .row3 {
     margin-top: 0px;
+  }*/
+
+  .row1 {
+    float: left;
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 350px;
+    margin-left: 35px;
   }
 
-  .col1 {
+  .row2 {
     position: relative;
-    width: 100px;
+    float: left;
+    margin: 0px;
+    margin-left: 375px;
+    margin-top: -595px;
+}
+
+  .row3 {
+    float: left;
+    margin: 0px;
+    margin-left: 35px;
   }
 
-  .col2 {
-    position: relative;
-    float: right;
-    width: 100px;
+  .portfolio_left_box .col1 {
+    /*float: left;*/
+    margin: 0px;
+    margin-left: 0px;
+  }
+
+  .portfolio_left_box .col2 {
+    float: left;
+    margin: 0px;
+    margin-left: 0px;
   }
 
   h4 {
@@ -518,32 +542,32 @@ h4 {
   color: #ffffff;
   text-align: center;
   margin-left: 53px;
-  padding: 8px 212px 10px 217px;
+  padding: 1px 166px 1px 125px;
 }
 
 .image_banner1 h4 {
-top: 1310px;
-left: 0px;
+top: 424px;
+left: 14px;
 }
 
 .image_banner2 h4 {
-top: 1856px;
-left: 0px;
+top: 192px;
+left: -54px;
 }
 
 .image_banner3 h4 {
-top: 2403px;
-left: 0px;
+top: 196px;
+left: -53px;
 }
 
 .image_banner4 h4 {
-top: 2951px;
-left: 0px;
+top: 193px;
+left: -54px;
 }
 
 .image_banner5 h4 {
-top: 3498px;
-left: 0px;
+top: 195px;
+left: -54px;
 }
 
 .container {
@@ -573,7 +597,7 @@ left: 0px;
 
 .icons img {
   width: 17%;
-  float: left;
+  /*float: left;*/
   padding: 2px;
 }
 
