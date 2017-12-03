@@ -378,7 +378,7 @@ h4 {
 
   .left_box {
     width: 391px;
-    margin-left: 100px;
+    margin-left: 79px;
     margin-right: 0px;
     padding-right: 15px;
   }
@@ -510,7 +510,7 @@ h4 {
 
   .contact_left_box {
     width: 400px;
-    margin-left: 100px;
+    margin-left: 79px;
     padding-right: 15px;
   }
 
@@ -540,7 +540,7 @@ h4 {
   }
 }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   body {
     height: 1550px;
@@ -721,9 +721,9 @@ h4 {
   .footer {
     width: 768px;
   }
-}*/
+}
 
-/*@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 
   body {
     height: 3945px;
@@ -885,4 +885,4 @@ h4 {
     margin-bottom: 10px;
     padding-right: 330px;
   }
-}*/
+}
