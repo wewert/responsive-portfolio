@@ -337,14 +337,10 @@ h4 {
   margin-top: 8px;
 }
 
-
-
-/*@media screen and (max-width: 980px) {
-  .left_box {width: 25%}
-  .right_box {width: 50%}
+@media screen and (max-width: 980px) {
 
   body {
-    height: 1000px;
+    height: 2450px;
   }
 
   .container {
@@ -353,6 +349,12 @@ h4 {
 
   .nav {
     margin-bottom: 20px;
+  }
+
+  img.resize {
+    float: none;
+    width: 100%;
+    padding-bottom: 20px;
   }
 
   .logo {
@@ -381,6 +383,131 @@ h4 {
     padding-right: 15px;
   }
 
+  .portfolio_left_box {
+    background: #ffffff;
+    width: 410px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 77px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+  }
+
+  .row1 {
+    float: left;
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 350px;
+    margin-left: 35px;
+  }
+
+  .row2 {
+    position: relative;
+    float: left;
+    margin: 0px;
+    margin-left: 375px;
+    margin-top: -595px;
+  }
+
+  .row3 {
+    float: left;
+    margin: 0px;
+    margin-left: 35px;
+  }
+
+  .portfolio_left_box .col1 {
+    margin: 0px;
+    margin-left: 0px;
+  }
+
+  .portfolio_left_box .col2 {
+    float: left;
+    margin: 0px;
+    margin-left: 0px;
+  }
+
+  h4 {
+    background: #4aaaa5;
+    position: absolute;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 764px;
+    left: 0px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 53px;
+    padding: 1px 166px 1px 125px;
+  }
+
+  .image_banner1 h4 {
+    top: 576px;
+    left: 67px;
+    right: 470px;
+  }
+
+  .image_banner2 h4 {
+    top: 296px;
+    left: -78px;
+    right: 75px;
+  }
+
+  .image_banner3 h4 {
+    top: 928px;
+    left: -418px;
+    right: 75px;
+  }
+
+  .image_banner4 h4 {
+    top: 331px;
+    left: -417px;
+    right: 74px;
+  }
+
+  .image_banner5 h4 {
+    top: 273px;
+    left: -77px;
+    right: 74px;
+  }
+
+  .container {
+    margin-left: 20px;
+    padding: 0px;
+  }
+
+  .portfolio_left_box img {
+    margin-left : -24px;
+    padding: 0px;
+    height: 390px;
+    width: 390px;
+  }
+
+  .col1 img {
+    margin-left: -364px;
+    margin-top: 595px;
+  }
+
+  .row2 .col2 img {
+    margin-left: -364px;
+  }
+
+  .row1 .col2 img {
+    margin-left: -25px;
+  }
+
+  .row3 .col1 img {
+    margin-left: -24px;
+    margin-top: 0px;
+  }
+
+  .portfolio_left_box h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 28px;
+    padding-top: 25px;
+  }
+
   .contact_left_box {
     width: 400px;
     margin-left: 100px;
@@ -393,12 +520,6 @@ h4 {
 
   .contact_left_box .message {
     width: 398px;
-  }
-
-  img.resize {
-    float: none;
-    width: 100%;
-    padding-bottom: 20px;
   }
 
   .right_box {
@@ -417,18 +538,16 @@ h4 {
     margin-bottom: 10px;
     padding-right: 10px;
   }
-}*/
+}
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 
   body {
-    height: 2300px;
+    height: 1550px;
   }
 
   .nav {
-    /*float: none;*/
     margin-bottom: 20px;
-    /*margin-bottom: 60px;*/
     border-bottom-style: solid;
     border-bottom-width: 4px;
     border-bottom-color: lightgray;
@@ -466,7 +585,6 @@ h4 {
   .contact_left_box {
     width: 707px;
     margin: 0px;
-
   }
 
   .contact_left_box .message {
@@ -494,10 +612,6 @@ h4 {
     border-width: 2px;
   }
 
-  /*.portfolio_left_box .row1 .row2 .row3 {
-    margin-top: 0px;
-  }*/
-
   .row1 {
     float: left;
     margin: 0px;
@@ -512,7 +626,7 @@ h4 {
     margin: 0px;
     margin-left: 375px;
     margin-top: -595px;
-}
+  }
 
   .row3 {
     float: left;
@@ -521,7 +635,6 @@ h4 {
   }
 
   .portfolio_left_box .col1 {
-    /*float: left;*/
     margin: 0px;
     margin-left: 0px;
   }
@@ -533,83 +646,82 @@ h4 {
   }
 
   h4 {
-  background: #4aaaa5;
-  position: absolute;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  top: 764px;
-  left: 0px;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-  margin-left: 53px;
-  padding: 1px 166px 1px 125px;
-}
+    background: #4aaaa5;
+    position: absolute;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 764px;
+    left: 0px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 53px;
+    padding: 1px 166px 1px 125px;
+  }
 
-.image_banner1 h4 {
-top: 424px;
-left: 14px;
-}
+  .image_banner1 h4 {
+    top: 424px;
+    left: 14px;
+  }
 
-.image_banner2 h4 {
-top: 192px;
-left: -54px;
-}
+  .image_banner2 h4 {
+    top: 192px;
+    left: -54px;
+  }
 
-.image_banner3 h4 {
-top: 196px;
-left: -53px;
-}
+  .image_banner3 h4 {
+    top: 196px;
+    left: -53px;
+  }
 
-.image_banner4 h4 {
-top: 193px;
-left: -54px;
-}
+  .image_banner4 h4 {
+    top: 193px;
+    left: -54px;
+  }
 
-.image_banner5 h4 {
-top: 195px;
-left: -54px;
-}
+  .image_banner5 h4 {
+    top: 195px;
+    left: -54px;
+  }
 
-.container {
-  margin-left: 20px;
-  padding: 0px;
-}
+  .container {
+    margin-left: 20px;
+    padding: 0px;
+  }
 
-.portfolio_left_box img {
-  margin: 0px;
-  padding: 0px;
-  height: 290px;
-  width: 290px;
-}
+  .portfolio_left_box img {
+    margin: 0px;
+    padding: 0px;
+    height: 290px;
+    width: 290px;
+  }
 
-.portfolio_left_box h2 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
-  font-size: 28px;
-  padding-top: 25px;
-}
+  .portfolio_left_box h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 28px;
+    padding-top: 25px;
+  }
 
-.right_box {
-  height: 170px;
-  width: 695px;
-  margin-left: 2px;
-}
+  .right_box {
+    height: 170px;
+    width: 695px;
+    margin-left: 2px;
+  }
 
-.icons img {
-  width: 17%;
-  /*float: left;*/
-  padding: 2px;
-}
+  .icons img {
+    width: 17%;
+    padding: 2px;
+  }
 
-.right_box h2 {
-  margin-bottom: 10px;
-  padding-right: 490px;
-}
+  .right_box h2 {
+    margin-bottom: 10px;
+    padding-right: 490px;
+  }
 
-.footer {
-  width: 768px;
-}
-}
+  .footer {
+    width: 768px;
+  }
+}*/
 
 /*@media screen and (max-width: 640px) {
 
